@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CSS SnowBound Resort</title>
+        <meta name="author" content="Raymond J Mercola">
+        <meta name="description" content="This will be the final project of the git215 class">
+
+        <!-- link to stylesheet -->
+        <link rel="stylesheet" href="styles.css">
+        
+       <header>
+    <h1>Snowbound Resort</h1>
+    <section id="logo">
+    <img src="images/logo.png" alt="" width="80" height="85"></a>
+    <a href="#" aria-label="go to the Snowbound Resort home page"></a>
+     </section>
+<nav>
+    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+</nav>
+  
+</header> 
+
+<main>
+    <h2>Contact us</h2>    
+    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+    <img src="images/swiss-peak.jpg" alt="A beautiful mountain range seen over the woods" width="500" height="500">
+    <section id="form">
+		<h3>Contact options</h3>
+		<p>If you would like more information, please fill out the form below. Required fields are marked with an asterisk (<span class="required">*</span>).</p>
+		<form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+			<label for="my-name">Name<span class="required">*</span></label>
+			<input type="text" name="my-name" id="my-name" required>
+
+            <label for="email-address">Email<span class="required">*</span></label>
+			<input type="text" name="email-address" id="email-address" required>
+
+            <label for="phone-number">Phone<span class="required">*</span></label>
+			<input type="text" name="phone-number" id="phone-number" required>
+                <fieldset>
+            	<legend>Preferred Method of Contact</legend>
+				<input type="radio" name="contact-pref" id="email" checked>
+				<label for="email-address">Email</label>
+				<input type="radio" name="contact-pref" id="phone">
+				<label for="phone-number">Phone</label>
+			</fieldset>
+
+            <label for="comments">Comments<span class="required"></span></label>
+			<textarea name="comments" id="comments"></textarea>
+
+            <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>Copyright ©2023 - *Snowbound Resort* </p> 
+    <p>site is for educational purposes only</p>
+</footer>
